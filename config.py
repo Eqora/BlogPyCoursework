@@ -11,4 +11,6 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['keduk2014@gmail.com']
+    SECURITY_EMAIL_SENDER = 'valid_email@my_domain.com'
+    POSTS_PER_PAGE = 5
 
