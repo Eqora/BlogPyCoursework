@@ -13,4 +13,4 @@ class Config(object):
     ADMINS = ['keduk2014@gmail.com']
     SECURITY_EMAIL_SENDER = 'valid_email@my_domain.com'
     POSTS_PER_PAGE = 3
-
+    LANGUAGES = ['en', 'ru']
